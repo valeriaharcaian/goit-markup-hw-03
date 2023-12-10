@@ -83,6 +83,7 @@
 
 .hero {
   background-color: var(--logo-titles-color);
+  text-align: center;
 }
 
 .hero-title {
@@ -91,6 +92,7 @@
   text-align: center;
   letter-spacing: 0.02em;
   color: #fff;
+  font-weight: 700;
 }
 
 /*Button - first section*/
@@ -218,5 +220,17 @@
   letter-spacing: 0.02em;
   color: var(--adress-text-color);
 }
+/*luate ca si coduri necesare de la teme*/
 
-/*footer*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0000);
+  overflow: hidden;
+}
