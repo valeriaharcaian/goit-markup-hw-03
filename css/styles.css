@@ -34,7 +34,6 @@
 
 .span-class {
   color: var(--logo-titles-color);
-  margin-right: 76px;
 }
 
 .link {
@@ -256,8 +255,8 @@
 .header-container {
   display: flex;
   width: 1158px;
-  padding-left: 0 15px;
-  padding-right: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .container {
