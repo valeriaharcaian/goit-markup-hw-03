@@ -30,6 +30,7 @@
 
 .span-class {
   color: var(--logo-titles-color);
+  margin-right: 76px;
 }
 
 .link {
@@ -38,6 +39,8 @@
 
 .list {
   list-style: none;
+  display: flex;
+  gap: 40px;
 }
 
 .list-link {
@@ -47,6 +50,7 @@
   letter-spacing: 0.02em;
   color: var(--logo-titles-color);
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .list-link:hover {
@@ -220,6 +224,8 @@
   letter-spacing: 0.02em;
   color: var(--adress-text-color);
 }
+
+/*tema 3*/
 /*luate ca si coduri necesare de la teme*/
 
 .visually-hidden {
@@ -233,4 +239,23 @@
   clip-path: inset(100%);
   clip: rect(0000);
   overflow: hidden;
+}
+
+/*header section*/
+
+.flex-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  width: 1158px;
+  margin: 0;
+  padding-left: 0 15px;
+  padding-right: 0 15px;
+}
+
+.flex-list {
+  display: flex;
+  align-items: center;
 }
