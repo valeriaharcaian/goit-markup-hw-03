@@ -28,6 +28,10 @@
   text-decoration: none;
 }
 
+.logo link {
+  margin-right: 76px;
+}
+
 .span-class {
   color: var(--logo-titles-color);
   margin-right: 76px;
@@ -253,6 +257,12 @@
   margin: 0;
   padding-left: 0 15px;
   padding-right: 0 15px;
+}
+
+.container {
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .flex-list {
