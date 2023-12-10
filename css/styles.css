@@ -26,14 +26,12 @@
   text-transform: uppercase;
   color: var(--logo-blue-color);
   text-decoration: none;
-}
-
-.logo link {
   margin-right: 76px;
 }
 
 .span-class {
   color: var(--logo-titles-color);
+  margin-right: 76px;
 }
 
 .link {
@@ -240,19 +238,6 @@
 /*tema 3*/
 /*luate ca si coduri necesare de la teme*/
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0000);
-  overflow: hidden;
-}
-
 /*header section*/
 
 .flex-header {
@@ -279,4 +264,24 @@
 
 .img {
   display: block;
+}
+
+/*section two*/
+
+.section-two {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0000);
+  overflow: hidden;
 }
