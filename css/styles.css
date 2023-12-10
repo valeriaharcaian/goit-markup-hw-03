@@ -92,6 +92,8 @@
 .hero {
   background-color: var(--logo-titles-color);
   text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -254,13 +256,11 @@
 .header-container {
   display: flex;
   width: 1158px;
-  margin: 0;
   padding-left: 0 15px;
   padding-right: 0 15px;
 }
 
 .container {
-  margin: 0;
   padding-left: 15px;
   padding-right: 15px;
 }
