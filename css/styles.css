@@ -10,12 +10,13 @@
   --logo-font-family: "Raleway", sans-serif;
 }
 
+/*Nav section - Contact-Adress */
+
 .body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: var(--background-page-color);
 }
-/*Nav section - Contact-Adress */
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -44,6 +45,28 @@
   gap: 40px;
 }
 
+.flex-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.flex-list {
+  display: flex;
+  align-items: center;
+}
+
 .list-link {
   font-weight: 500;
   font-size: 16px;
@@ -60,8 +83,6 @@
 .list-link:focus {
   color: #404bbf;
 }
-
-/*adress section*/
 
 .contact {
   font-style: normal;
@@ -83,8 +104,6 @@
 }
 
 /*MAIN SECTION -index html\\\*/
-
-/*Hero section*/
 
 .hero {
   background-color: var(--logo-titles-color);
@@ -141,6 +160,31 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--adress-text-color);
+}
+
+/*section two tema3*/
+
+.section-two {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.img {
+  display: block;
+}
+
+.position {
+  margin-right: 24px;
+  width: 100%;
+  min-width: 264px;
+}
+
+.position-last {
+  margin-right: 0;
+}
+
+.flist {
+  flex-basis: calc((100%-48) / 3);
 }
 
 /*section 3*/
@@ -240,50 +284,3 @@
 /*luate ca si coduri necesare de la teme*/
 
 /*header section*/
-
-.flex-header {
-  border-bottom: 1px solid #e7e9fc;
-}
-
-.header-container {
-  display: flex;
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: auto;
-}
-
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.flex-list {
-  display: flex;
-  align-items: center;
-}
-
-.img {
-  display: block;
-}
-
-/*section two*/
-
-.section-two {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.position {
-  margin-right: 24px;
-  width: 100%;
-  min-width: 264px;
-}
-
-.position-last {
-  margin-right: 0;
-}
-
-.flist {
-  flex-basis: calc((100%-48) / 3);
-}
