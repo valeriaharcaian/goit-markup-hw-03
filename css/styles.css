@@ -276,9 +276,14 @@
 
 .position {
   margin-right: 24px;
-  width: calc(100%-72px) / 4;
+  width: 100%;
+  min-width: 264px;
 }
 
 .position-last {
   margin-right: 0;
+}
+
+.flist {
+  flex-basis: calc((100%-48) / 3);
 }
