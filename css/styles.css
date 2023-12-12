@@ -58,6 +58,12 @@ img {
   gap: 40px;
 }
 
+.design-button {
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
 .portf {
   flex-wrap: wrap;
 }
@@ -346,4 +352,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--adress-text-color);
+}
+
+.main {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
