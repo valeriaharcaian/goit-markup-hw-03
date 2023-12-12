@@ -45,8 +45,8 @@
   gap: 40px;
 }
 
-.last {
-  margin-right: 0;
+.portf {
+  flex-wrap: wrap;
 }
 
 .flex-header {
@@ -178,7 +178,8 @@
 }
 
 .position {
-  width: calc((100% - 72px) / 4);
+  width: 100%;
+  min-width: 264px;
 }
 
 .flist {
@@ -207,6 +208,12 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--logo-titles-color);
+  margin-bottom: 72px;
+}
+
+.third {
+  display: flex;
+  gap: 24px;
 }
 
 /*section 4*/
@@ -222,6 +229,14 @@
 .photo {
   background: #fff;
 }
+
+.photocont {
+  padding-bottom: 120px;
+}
+
+.container-div {
+}
+
 /*footer section*/
 
 .footer {
