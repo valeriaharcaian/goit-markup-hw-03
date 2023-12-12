@@ -25,6 +25,10 @@
   margin: 0 auto;
 }
 
+img {
+  display: block;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -169,10 +173,6 @@
   padding-bottom: 120px;
 }
 
-.img {
-  display: block;
-}
-
 .position {
   width: 100%;
   min-width: 264px;
@@ -230,7 +230,8 @@
 }
 
 .div-element {
-  padding: 32px0;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .four {
