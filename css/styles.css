@@ -347,8 +347,3 @@ img {
   letter-spacing: 0.02em;
   color: var(--adress-text-color);
 }
-
-.main {
-  padding-top: 96px;
-  padding-bottom: 96px;
-}
