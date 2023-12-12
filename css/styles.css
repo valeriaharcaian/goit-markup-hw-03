@@ -242,7 +242,8 @@
 
 .four {
   width: calc(100%-72px) / 4;
-  border-radius: 0044;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 .photo {
