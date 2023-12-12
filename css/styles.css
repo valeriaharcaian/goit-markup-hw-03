@@ -45,6 +45,10 @@
   gap: 40px;
 }
 
+.last {
+  margin-right: 0;
+}
+
 .flex-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -174,9 +178,7 @@
 }
 
 .position {
-  margin-right: 24px;
-  width: 100%;
-  min-width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 
 .flist {
