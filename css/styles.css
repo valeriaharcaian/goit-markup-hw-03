@@ -357,6 +357,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--logo-titles-color);
+  margin-bottom: 8px;
 }
 
 .p-pharagraph {
@@ -375,5 +376,4 @@ img {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
   border-top: none;
-  margin-bottom: 8px;
 }
