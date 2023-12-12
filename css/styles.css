@@ -161,11 +161,6 @@
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.indexp {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--adress-text-color);
-}
 
 /*section two */
 
@@ -229,6 +224,7 @@
 }
 
 .fourth {
+  list-style: none;
   display: flex;
   gap: 24px;
 }
@@ -249,6 +245,12 @@
 .h-three {
   text-align: center;
   margin-bottom: 8px;
+}
+
+.indexp {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--adress-text-color);
 }
 
 .p-team {
