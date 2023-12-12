@@ -59,6 +59,10 @@ img {
   gap: 40px;
 }
 
+.sect-two {
+  gap: 24px;
+}
+
 .design-button {
   justify-content: center;
   gap: 24px;
