@@ -8,6 +8,7 @@
   --logo-coloe: #f4f4f4f4;
   --text-font-family: "Roboto", sans-serif;
   --logo-font-family: "Raleway", sans-serif;
+  --cornflower: #e7e9fc;
 }
 
 /*Nav section - Contact-Adress */
@@ -18,15 +19,15 @@
   background-color: var(--background-page-color);
 }
 
+img {
+  display: block;
+}
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
   width: 1158px;
   margin: 0 auto;
-}
-
-img {
-  display: block;
 }
 
 .logo {
@@ -66,6 +67,8 @@ img {
 
 .portf {
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48;
 }
 
 .flex-header {
@@ -187,7 +190,7 @@ img {
 }
 
 .flist {
-  flex-basis: calc((100%-48) / 3);
+  width: calc((100%-48px) / 3);
 }
 
 .visually-hidden {
@@ -327,17 +330,26 @@ img {
   color: var(--logo-blue-color);
   background-color: #f4f4fd;
   cursor: pointer;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
 }
 
 .navi-menu:hover {
   color: #fff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .navi-menu:focus {
   color: #fff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
+
 /*images*/
 .portfolio-titles {
   font-weight: 500;
