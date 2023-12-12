@@ -348,7 +348,7 @@ img {
   color: var(--adress-text-color);
 }
 
-/*tema 3*/
-/*luate ca si coduri necesare de la teme*/
-
-/*header section*/
+.main {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
