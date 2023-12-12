@@ -286,6 +286,8 @@ img {
   color: var(--logo-blue-color);
   background-color: var(--logo-titles-color);
   text-transform: lowercase;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .index {
