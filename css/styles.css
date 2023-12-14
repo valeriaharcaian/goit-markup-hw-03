@@ -308,11 +308,11 @@ img {
 /*footer section*/
 
 .footer {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
   color: var(--logo-blue-color);
   background-color: var(--logo-titles-color);
   text-transform: lowercase;
