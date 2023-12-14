@@ -28,6 +28,7 @@ img {
   padding-right: 15px;
   width: 1158px;
   margin: 0 auto;
+  align-content: center;
 }
 
 .logo {
@@ -112,6 +113,9 @@ img {
 .contact {
   font-style: normal;
   list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 40;
 }
 
 .contact-link {
@@ -158,11 +162,11 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
-  display: block;
   min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: auto;
 }
 
 .button:hover,
@@ -309,6 +313,7 @@ img {
   color: var(--light-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .span-class-f {
