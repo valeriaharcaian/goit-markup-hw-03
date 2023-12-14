@@ -73,12 +73,14 @@ img {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+  padding: 0;
 }
 
 .portf {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  padding: 0;
 }
 
 .flex-header {
@@ -254,6 +256,7 @@ img {
   list-style: none;
   display: flex;
   gap: 24px;
+  padding: 0;
 }
 
 .div-element {
