@@ -58,6 +58,7 @@ img {
   list-style: none;
   display: flex;
   gap: 40px;
+  padding: 0;
 }
 
 .ad-li {
@@ -90,6 +91,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: auto;
+  justify-content: space-between;
 }
 
 .flex-list {
@@ -230,7 +232,6 @@ img {
   text-transform: capitalize;
   color: var(--logo-titles-color);
   margin-bottom: 72px;
-  margin-left: 72px;
 }
 
 .third {
